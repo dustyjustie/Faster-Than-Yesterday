@@ -1,3 +1,92 @@
+.main-header
+{
+    padding:15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.main-header .main-nav {
+
+
+}
+.main-header .main-nav ul{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+
+}
+
+.main-header .main-nav ul:after{
+
+    clear:both;
+    content: ' ';
+    overflow:hidden;
+    display:block;
+
+}
+    .main-header .main-nav ul li{
+        float:left;
+    }
+
+    .main-header .main-nav ul li a{
+        display:block;
+        padding:0;
+        margin:0 15px;
+        color:#52575d;
+        font-weight:bold;
+
+        font-family: 'Muli' ,sans-serif;
+        text-decoration:none;
+        font-size:14px;
+    }
+
+    .main-header .main-nav ul li a:hover {
+        color:#f72464;
+
+
+    }
+    .main-header .shopping-cart{
+        position:relative;
+        display:inline-block;
+        clear:both;
+
+    }
+
+   .main-header .shopping-cart i{
+       font-size:22px;
+       color:#808080;
+
+   }
+    .main-header .shopping-cart .item-count{
+        position:absolute;
+        right: -10px;
+        bottom: -10px;
+        background-color:#f72464;
+        color:#fff;
+         font-family: 'Muli' ,sans-serif;
+         font-size:11px;
+
+         border-radius :100%;
+         padding:3px 7px;
+    }
+
+
+
+
+    /*Bootstrap Carousel Control Overrides*/
+    .carousel-control span {
+        position:absolute;
+        top:45%;
+        left: 20px;
+        font-size: 40px;
+
+
+    }
+        .carousel-control.right span {
+        right:20px;
+
+    }
+
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
